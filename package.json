@@ -1,6 +1,29 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "inquirer": "^8.2.4",
-    "mysql2": "^2.3.3"
-  }
+    "mysql2": "^2.18.1"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "name": "french.fries-employee-track",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amatos201/french.fries-employee-track.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amatos201/french.fries-employee-track/issues"
+  },
+  "homepage": "https://github.com/Amatos201/french.fries-employee-track#readme",
+  "description": ""
 }

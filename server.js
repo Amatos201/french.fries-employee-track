@@ -1,12 +1,13 @@
 const inquirer = require("inquirer");
 const mysql = require("mysql2");
 const db = require(".");
-
+//const PORT = process.env.PORT || 3001//
 const connection = mysql.createConnection({
-  host: "localhost",
+
+    host: "localhost",
 
   // Your port; if not 3001
-  port: 3001,
+  port: 8000,
 
   // Your username
   user: "root",
@@ -203,7 +204,7 @@ function viewDepartment() {
 }
 
 function viewRoles() {
-  // select from the db
+ 
   let query = "SELECT * FROM role";
   connection.query(query, function(err, res) {
     if (err) throw err;

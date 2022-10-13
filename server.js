@@ -62,7 +62,7 @@ function startScreen() {
         case "View roles":
           viewRoles();
           break;
-        case "View employees":
+        case "View all employees":
           viewEmployees();
           break;
         case "Update employee role":
